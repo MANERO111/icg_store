@@ -156,7 +156,7 @@ export default function Navbar() {
                 <button onClick={() => setIsLoginModalOpen(true)} className="hover:text-[#e05080] transition-colors">Se connecter</button>
               )}
               <span className="text-gray-300">|</span>
-              <a href="#" className="hover:text-[#e05080] transition-colors">Centre d'aide</a>
+              <a href="#" className="hover:text-[#e05080] transition-colors">Centre d&apos;aide</a>
               <span className="text-gray-300">|</span>
               <a href="#" className="hover:text-[#e05080] transition-colors">Devenir partenaire</a>
             </nav>
@@ -320,7 +320,7 @@ export default function Navbar() {
               ) : (
                 <button onClick={() => { setIsLoginModalOpen(true); setMobileMenuOpen(false); }} className="hover:text-[#e05080]">Se connecter</button>
               )}
-              <a href="#" className="hover:text-[#e05080]">Centre d'aide</a>
+              <a href="#" className="hover:text-[#e05080]">Centre d&apos;aide</a>
             </div>
 
             {NAV_ITEMS.map((item) => (

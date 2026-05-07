@@ -68,7 +68,7 @@ const Newsletter = () => {
                   className="flex items-center gap-2 px-6 py-3.5 text-[11px] font-bold tracking-[0.2em] uppercase text-[#e4006d] transition-all duration-300 hover:scale-105 flex-shrink-0"
                   style={{ background: '#fff', borderRadius: '3px', fontFamily: "'DM Sans',sans-serif" }}
                 >
-                  S'inscrire <ArrowRight size={12} />
+                  S&apos;inscrire <ArrowRight size={12} />
                 </button>
               </div>
             )}

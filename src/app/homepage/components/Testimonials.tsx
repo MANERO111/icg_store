@@ -42,7 +42,7 @@ const Testimonials = () => {
             className="text-4xl md:text-[52px] font-light text-[#1a1a2e] leading-[1.06]"
             style={{ fontFamily: "'Cormorant Garamond', serif" }}
           >
-            Ce qu'ils &nbsp;
+            Ce qu&apos;ils &nbsp;
             <em
               className="not-italic"
               style={{
@@ -76,7 +76,7 @@ const Testimonials = () => {
                   <Star key={s} size={12} fill="#e4006d" stroke="#e4006d" />
                 ))}
               </div>
-              <p className="text-[12px] font-light leading-relaxed text-[#1a1a2e]/65 flex-grow mb-4" style={{ fontFamily: "'DM Sans',sans-serif" }}>"{r.text}"</p>
+              <p className="text-[12px] font-light leading-relaxed text-[#1a1a2e]/65 flex-grow mb-4" style={{ fontFamily: "'DM Sans',sans-serif" }}>&quot;{r.text}&quot;</p>
               <div className="border-t pt-4" style={{ borderColor: 'rgba(26,26,46,0.07)' }}>
                 <p className="text-[11px] font-bold text-[#1a1a2e]" style={{ fontFamily: "'Syne',sans-serif" }}>{r.name}</p>
                 <p className="text-[9px] text-[#1a1a2e]/35 mt-0.5" style={{ fontFamily: "'DM Sans',sans-serif" }}>{r.city} · {r.product}</p>

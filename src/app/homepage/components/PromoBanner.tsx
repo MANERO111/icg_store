@@ -40,7 +40,7 @@ const PromoBanner = () => {
           <div className="relative z-10">
             <p className="text-[9px] font-bold tracking-[0.4em] uppercase text-white/60 mb-2" style={{ fontFamily: "'DM Sans',sans-serif" }}>Offre limitée</p>
             <h3 className="text-2xl md:text-3xl font-extrabold text-white leading-tight" style={{ fontFamily: "'Syne',sans-serif" }}>
-              Jusqu'à <span className="text-white/90 border-b-2 border-white/50">−30%</span> sur les promotions
+              Jusqu&apos;à <span className="text-white/90 border-b-2 border-white/50">−30%</span> sur les promotions
             </h3>
             <p className="text-[12px] text-white/60 mt-1" style={{ fontFamily: "'DM Sans',sans-serif" }}>Profitez de nos meilleures offres sur une sélection de produits.</p>
           </div>
