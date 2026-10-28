@@ -147,7 +147,7 @@ const AboutUs = () => {
               <div className="space-y-8">
                 {[
                   { icon: <Phone size={20} />, label: "Téléphone", value: "+212 665474087", sub: "Lun-Ven: 9h - 19h" },
-                  { icon: <Mail size={20} />, label: "Email", value: "contact@jamaliexpress.com", sub: "Réponse sous 24h" },
+                  { icon: <Mail size={20} />, label: "Email", value: "contact@icgroupe.com", sub: "Réponse sous 24h" },
                   { icon: <MapPin size={20} />, label: "Adresse", value: "Casablanca, Maroc", sub: "Bureau Central" }
                 ].map((item, i) => (
                   <div key={i} className="flex gap-6 items-start group">

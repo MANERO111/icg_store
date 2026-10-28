@@ -17,9 +17,9 @@ import { LayoutDashboard, User, Settings, LogOut, Package, ChevronDown } from 'l
 
 const NAV_ITEMS = [
   // { label: "NOS MARQUES", href: "/nos-marques" },
-  // { label: "À PROPOS", href: "/notre-histoire" },
+  { label: "À PROPOS", href: "/aboutUs" },
   { label: "INNOVATION & SCIENCE", href: "#" },
-  { label: "ÉCOSYSTÈME ICG", href: "#" },
+  { label: "ÉCOSYSTÈME ICG", href: "/ecosystem" },
   { label: "ACTUALITÉS", href: "#" },
   { label: "BOUTIQUE", href: "/products" },
 ];

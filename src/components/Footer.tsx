@@ -5,25 +5,25 @@ import { useState } from "react";
 
 const navLinks: Record<string, { label: string; href: string }[]> = {
   ICG: [
-    { label: "À propos", href: "#" },
-    { label: "Notre histoire", href: "/notre-histoire" },
-    { label: "Mission & Vision", href: "/mission-vision" },
-    { label: "Nos valeurs", href: "/mission-vision" },
+    { label: "À propos", href: "/aboutUs" },
+    { label: "Notre histoire", href: "/aboutUs" },
+    { label: "Mission & Vision", href: "/aboutUs" },
+    { label: "Nos valeurs", href: "/aboutUs" },
   ],
   MARQUES: [
-    { label: "Nos marques", href: "#" },
-    { label: "Innovation", href: "#" },
-    { label: "Boutique", href: "#" }
+    { label: "Nos marques", href: "/products" },
+    { label: "Innovation", href: "/ecosystem" },
+    { label: "Boutique", href: "/products" }
   ],
   ÉCOSYSTÈME: [
-    { label: "Partenaires", href: "#" },
-    { label: "Formation", href: "#" },
-    { label: "Distribution", href: "#" },
-    { label: "Actualités", href: "#" }
+    { label: "Écosystème ICG", href: "/ecosystem" },
+    { label: "Partenaires", href: "/ecosystem#partners" },
+    { label: "Formation", href: "/ecosystem#academy" },
+    { label: "Distribution", href: "/ecosystem#distribution" },
   ],
   CONTACT: [
-    { label: "Contact", href: "#" },
-    { label: "Demande de partenariat", href: "#" }
+    { label: "Contact", href: "/aboutUs#contact" },
+    { label: "Demande de partenariat", href: "/aboutUs#contact" }
   ],
 };
 
